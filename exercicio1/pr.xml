@@ -27,8 +27,5 @@
         </p>
     </abstract>
     <deliverables>
-        <deliverable path="../exercicio1/">Resolução do primeiro exercicio</deliverable>
-        <deliverable path="../exercicio2/exercicio2.txt">Resolução a primeira pergunta</deliverable>
-        <deliverable path="../exercicio2/exercicio2.txt">Dentro da pasta encontra-se a aplicação</deliverable>
-    </deliverables>
-</pr>
+        <deliverable path="https://github.com/sir-onze/PRI_teste">Resolução do teste</deliverable>
+           </pr>
