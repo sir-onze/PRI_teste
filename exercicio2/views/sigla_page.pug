@@ -1,0 +1,19 @@
+extends layout
+block content
+    .w3-container
+        h1 Lista de Tipologias
+        table.w3-table-all
+            tr
+                th Estado
+                th Sigla
+                th Sioe
+                th Designação
+                th Internacional 
+            tr
+              td= lista.estado
+              td= lista.sigla
+              td= lista.sioe
+              td= lista.designacao
+              td= lista.internacional
+    footer.w3-container.w3-blue
+      address Tiago Baptista

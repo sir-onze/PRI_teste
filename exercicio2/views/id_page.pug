@@ -1,0 +1,43 @@
+extends layout
+block content
+    .w3-container
+        h1 Lista de Tipologias
+        table.w3-table-all
+            tr
+                th Sigla
+                th Estado
+                th Designação
+                th Dono
+                th Participante
+            tr
+              td= lista.sigla
+              td= lista.estado
+              td= lista.designacao
+                each ent in lista.dono
+                    tr
+                        th Dono
+                        th Codigo 
+                        th Titulo
+                        th ID
+                    tr
+                    td= ent.dono
+                    td= ent.codigo
+                    td= ent.titulo
+                    td=ent.id
+                each part in lista.participante
+                    tr 
+                        th Participante
+                        th Tipo de Participante
+                        th Codigo
+                        th Titulo
+                        th Id
+                    tr
+                    td
+                    td=part.tipoPar
+                    td=part.codigo
+                    td=part.titulo
+                    td=part.id
+                
+        a(class='button' href='http://localhost:3011/clav/') Voltar atrás
+    footer.w3-container.w3-blue
+      address Tiago Baptista

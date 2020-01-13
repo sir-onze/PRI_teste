@@ -1,0 +1,6 @@
+Respostas ao exercício 2:
+
+(1) Estão catalogadas 76 topologias;
+(2) 
+(3) c650.10.019, c650.10.020, c650.10.212, c650.10.213
+(4) tip_AP e tip_FSS 
